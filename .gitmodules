@@ -69,10 +69,6 @@
 [submodule "src/github.com/cloudfoundry/blobstore_url_signer"]
 	path = src/github.com/cloudfoundry/blobstore_url_signer
 	url = https://github.com/cloudfoundry/blobstore_url_signer
-[submodule "src/cloud_controller_ng"]
-	path = src/cloud_controller_ng
-	url = https://github.com/ZhangWeiinHPE/cloud_controller_ng
-	branch = fix_bug196
 [submodule "src/code.cloudfoundry.org/tps"]
 	path = src/code.cloudfoundry.org/tps
 	url = https://github.com/cloudfoundry/tps
@@ -148,3 +144,7 @@
 [submodule "src/gopkg.in/yaml.v2"]
 	path = src/gopkg.in/yaml.v2
 	url = https://github.com/go-yaml/yaml
+[submodule "src/cloud_controller_ng"]
+	path = src/cloud_controller_ng
+	url = https://github.com/ZhangWeiinHPE/cloud_controller_ng.git
+	branch = fix_bug196
