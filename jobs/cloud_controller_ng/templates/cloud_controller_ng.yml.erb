@@ -115,6 +115,9 @@ logging:
 
 logcache:
   internal_url: <%= p("cc.logcache.internal_url") %>
+  ca_file: <%= p('cc.logcache_tls.ca_cert') %>
+  cert_file: <%= p('cc.logcache_tls.certificate') %>
+  key_file: <%= p('cc.logcache_tls.private_key') %>
 
 loggregator:
   router: <%= p("metron_endpoint.host") %>:<%= p("metron_endpoint.port") %>
